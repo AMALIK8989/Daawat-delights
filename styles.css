@@ -1,8 +1,19 @@
 /* Navbar */
+root {
+    --navbar-bg-color-start: #4e54c8;
+    --navbar-bg-color-end: #8f94fb;
+}
+
+#head {
+    width: 100% !important;
+    height: auto;
+}
+
+
 .navbar {
-    background: linear-gradient(to right, #4e54c8 !important, #8f94fb !important);
-    padding: 20px 0 !important;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    background: linear-gradient(var(--navbar-bg-color-start ) var( --navbar-bg-color-end );
+    width:100% !important;
+    height:90px;
 }
 
 .navbar .container {
