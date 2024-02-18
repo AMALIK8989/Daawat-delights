@@ -1,1 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daawat Delights</title>
+    <!-- Link to FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" crossorigin="anonymous" />
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha384-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" crossorigin="anonymous">
+    <!-- Link to your custom CSS file for styling -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="head">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Daawat Delights</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./About.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <a href="./Order.html" class="order-btn btn btn-primary">Order Now</a>
+        </div>
+      <section class="hero">
+            <div class="container">
+                <h2>Welcome to Daawat Delights</h2>
+                <p>Your go-to destination for authentic Pakistani home-cooked and frozen foods.</p>
+                <a href="#" class="cta-btn btn btn-primary">Explore Menu</a>
+            </div>
+        </section>
+    </header>
+
+    <!-- Hero Section -->
+    <main id="main-sect">
+        <!-- Featured Items Section -->
+        <section class="featured-items">
+            <div class="container">
+                <h3>Featured Items</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="item">
+                            <i class="fas fa-utensils"></i>
+                            <h4>Biryani</h4>
+                            <p>Delicious and fragrant rice dish with spices and meat.</p>
+                        </div>
+                    </div>
+                    <!-- Add more featured items -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="about-us">
+            <div class="about-container">
+                <h3>About Us</h3>
+                <p>Daawat Delights is a family-owned catering service specializing in traditional Pakistani cuisine.</p>
+                <p>Founded in October 2023, we are dedicated to providing homemade flavors and authentic recipes passed down through generations.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="contact-container">
+                <h3>Contact Us</h3>
+                <p>Have a question or want to place an order? Get in touch with us!</p>
+                <a href="contact.html" class="btn btn-primary">Contact Form</a>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> Phone: 123-456-7890</p>
+                    <p><i class="fas fa-envelope"></i> Email: info@daawatdelights.com</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media Section -->
+        <section id="social-med">
+            <div class="social-container">
+                <div class="social-media">
+                    <a href="#" class="social-card">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="#" class="social-card">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="#" class="social-card">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <!-- Add more social media icons as needed -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="foot-container">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <p>&copy; 2024 Daawat Delights. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha384-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+    <!-- Custom JavaScript for Navbar Toggler -->
+    <script>
+        $(document).ready(function() {
+            $('.navbar-toggler').click(function() {
+                $(this).toggleClass('active');
+                $('.navbar-nav').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+</html>
 
