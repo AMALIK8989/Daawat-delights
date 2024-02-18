@@ -5,7 +5,7 @@ root {
 }
 
 #head {
-    width: 100% !important;
+    width: 100%;
     height: auto;
 }
 
@@ -33,25 +33,7 @@ root {
     cursor: pointer !important;
 }
 
-.navbar .navbar-toggler .bar {
-    width: 25px !important;
-    height: 3px !important;
-    background-color: #ffffff !important;
-    margin: 5px 0 !important;
-    transition: all 0.3s ease !important;
-}
-
-.navbar .navbar-toggler.active .bar:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px) !important;
-}
-
-.navbar .navbar-toggler.active .bar:nth-child(2) {
-    opacity: 0 !important;
-}
-
-.navbar .navbar-toggler.active .bar:nth-child(3) {
-    transform: rotate(-45deg) translate(4px, -4px) !important;
-}
+.
 
 /* Hero Section */
 .hero {
