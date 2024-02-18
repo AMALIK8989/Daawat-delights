@@ -12,144 +12,6 @@
 }
 
 .navbar .navbar-brand {
-    color: #000000;
-    font-size: 1.3rem;
-    margin: 0;
-}
-
-.navbar-toggler {
-    display: block;
-    cursor: pointer;
-}
-
-.navbar-toggler .navbar-toggler-icon {
-    background-color: #ffffff;
-}
-
-/* Hero Section */
-.hero {
-    background-color: #f8f9fa;
-    padding: 100px 0;
-    text-align: center;
-}
-
-.hero h2 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-/* Featured Items Section */
-.featured-items {
-    padding: 100px 0;
-}
-
-.featured-items h3 {
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.featured-items .container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-.featured-items .item {
-    width: 300px;
-    padding: 20px;
-    margin: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.featured-items .item i {
-    font-size: 36px;
-    color: #4e54c8;
-}
-
-.featured-items .item h4 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.featured-items .item p {
-    font-size: 16px;
-    color: #555555;
-    margin-top: 10px;
-}
-
-/* About Us Section */
-.about-us {
-    padding: 100px 0;
-}
-
-.about-us h3 {
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.about-us .container {
-    text-align: center;
-}
-
-.about-us p {
-    font-size: 18px;
-    color: #555555;
-    margin-bottom: 20px;
-}
-
-/* Contact Section */
-.contact {
-    padding: 100px 0;
-}
-
-.contact h3 {
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.contact .container {
-    text-align: center;
-}
-
-.contact p {
-    font-size: 18px;
-    color: #555555;
-    margin-bottom: 20px;
-}
-
-.contact .btn {
-    padding: 10px 20px;
-    background-color: #4e54c8;
-/* Navbar */
-.navbar {
-    background: linear-gradient(to right, #4e54c8, #8f94fb);
-    padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar .navbar-brand {
     color: #ffffff;
     font-size: 1.3rem;
     margin: 0;
@@ -164,9 +26,10 @@
     background-color: #ffffff;
 }
 
-.nav-links ul {
-    list-style: none;
+.nav-links {
+    margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .nav-links li {
