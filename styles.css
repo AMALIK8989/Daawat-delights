@@ -4,19 +4,15 @@ root {
     --navbar-bg-color-end: #8f94fb;
 }
 
-#head {
-    width: 100%;
-    height: auto;
-}
 
 
-.navbar {
+#head .navbar {
     background: linear-gradient(var(--navbar-bg-color-start ) var( --navbar-bg-color-end );
     width:100% !important;
     height:90px;
 }
 
-.navbar .container {
+.navbar {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
@@ -34,7 +30,12 @@ root {
 }
 
 .
-
+.hero-container{
+    width:100%;
+    height:auto;
+    margin-top:5px;
+    
+}
 /* Hero Section */
 .hero {
     background-color: #f8f9fa !important;
